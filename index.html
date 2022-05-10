@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+
+            #search_text_input
+            {
+                position: absolute;
+                top: 200px;
+                left: 850px;
+                border-radius: 10px;
+
+                
+            }
+
+            #search_button
+            {
+                position: absolute;
+                top: 260px;
+                left: 885px;
+                font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+                
+            }
+
+            #lucky_button
+            {
+                position: absolute;
+                top: 300px;
+                left: 875px;
+                
+            }
+
+            #nav_1
+            {
+                position: absolute;
+                top: 30px;
+                left: 50px;
+
+            }
+
+            #nav_2
+            {
+                position: absolute;
+                top: 30px;
+                left: 150px;
+
+            }
+
+            #photo
+            {
+                width: 220px;
+                height: 200px;
+                position: absolute;
+                top: 40px;
+                left: 830px;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <a href="index_image.html" id="nav_1">Image search</a>
+        <a href="index_advance_search.html" id="nav_2">Advance Search</a>
+
+        <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" id="photo">
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" id="search_text_input">
+            <input type="submit" value="Google Search" id="search_button">
+
+        </form>
+
+        <a href="https://www.google.com/search?q=your+search+query+here&btnI=">
+            <input type="submit" value="I'm Feeling Lucky" id="lucky_button" >
+        </a>
+    </body>
+</html>
